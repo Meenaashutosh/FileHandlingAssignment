@@ -6,4 +6,4 @@ def read_file(fname, nlines):
         with open(fname) as f:  
                 for line in islice(f, nlines):  
                         print(line)  
-file_read('file.txt',3)
+read_file('file.txt',3)

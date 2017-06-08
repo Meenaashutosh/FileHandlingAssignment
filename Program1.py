@@ -12,6 +12,6 @@ file.write("why??? you can enjoy different activity in our organisation......")
 file.close() 
 
 #reading data from file using read line
-file = open("testfile.txt", "r") 
+file = open("test.txt", "r") 
 print file.readlines() 
 

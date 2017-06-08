@@ -1,7 +1,7 @@
 #1.Write a Python program to read an entire text file and print its contents.
 
 # creating text file 
-file = open("text.txt","w") 
+file = open("text.txt","wr+") 
 print "file is created"
 # file containg data
 file.write("Hello World") 
@@ -12,6 +12,9 @@ file.write("why??? you can enjoy different activity in our organisation......")
 file.close() 
 
 #reading data from file using read line
-file = open("test.txt", "r") 
-print file.readlines() 
+file = open("test.txt", "r+") 
+line= file.readlines(3)
+print "Read line is:%s" %(line)
+
+file.close()
 

@@ -10,8 +10,8 @@ file.write("and all zensarian required to join it... ")
 file.write("why??? you can enjoy different activity in our organisation......") 
  
 file.close() 
-'''
+
 #reading data from file using read line
 file = open("testfile.txt", "r") 
 print file.readlines() 
-''
+

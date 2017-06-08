@@ -4,7 +4,7 @@
 file = open("text.txt","wr+") 
 print "file is created",file.name
 # file containg data
-file.write("Hello World,how are you................") 
+file.write("Hello World,how are you................\nTheir is Award function in zensar") 
 
 #reading data from file using read line
 file.seek(0,0)

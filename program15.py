@@ -8,3 +8,12 @@ print(fi2.closed)
 fi2.close()
 print(fi1.closed)
 print(fi2.closed)
+
+#output
+'''
+[ashutoshmeena111@demo-1 FileHandlingAssignment]$ python program15.py
+False
+False
+True
+True
+'''

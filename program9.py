@@ -12,3 +12,15 @@ for word in file.read().split():
 
 for l in word_count.items():
     print l
+    
+#output
+'''
+ python program9.py
+ ('redmi', 1)
+ ('apple', 1)
+ ('vivo', 1)
+ ('moto', 1)
+ ('appo', 1)
+ ('sony', 1)
+ ('panasonic', 1)
+ '''

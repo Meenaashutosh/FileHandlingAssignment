@@ -8,4 +8,4 @@ def Word():
         if len(l)>len(long):
             long_word=str1
     return long
-print word()
+print long_word()

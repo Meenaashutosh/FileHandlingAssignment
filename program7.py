@@ -4,4 +4,4 @@ array = []
 with open("file.txt","r") as text:
     for lines in text:
         array.append(lines)
-    print(f_array)
+    print(array)

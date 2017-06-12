@@ -1,0 +1,4 @@
+How would I Pythonicly scale these values so that A[0] = 0 and A[3] = 100 
+If you use this values as points you can draw a straight line from point 0 to point 3.
+In other words, how to generate an equally-spaced list starting at x and going to y? 
+Is there any relation to the points that were originally in the list? Have you tried anything?  

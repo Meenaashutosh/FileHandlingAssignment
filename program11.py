@@ -7,3 +7,16 @@ with open('file.txt', "w") as file:
    
 content = open('file.txt')   
 print(content.read())   
+
+
+#output
+'''
+[ashutoshmeena111@demo-1 FileHandlingAssignment]$ python program11.py
+redmi
+apple
+appo
+moto
+panasonic
+sony
+vivo
+'''

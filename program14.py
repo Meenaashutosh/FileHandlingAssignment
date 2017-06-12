@@ -1,5 +1,5 @@
 #14.Write a Python program to read a random line from a file
 
-import random_line
-lines = open(".txt").read().splitlines()
-print random_line.choice(lines)
+import random
+lines = open("ashu.txt").read().splitlines()
+print random.choice(lines)

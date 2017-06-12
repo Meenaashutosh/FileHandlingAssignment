@@ -9,3 +9,11 @@ def read_file(fname):
         txt = open(fname)  
         print(txt.read())  
 read_file('file1.txt')  
+
+
+#output
+'''
+[ashutoshmeena111@demo-1 FileHandlingAssignment]$ python program3.py
+Python Exercises
+Pratice
+'''
